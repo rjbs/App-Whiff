@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+=head1 NAME
+
+whiff - like which, but finds the first of all the given alternatives
+
+=head1 USAGE
+
+ whiff <command ... >
+
+=head1 DESCRIPTION
+
+F<which> is a useful utility, found on most unix systems.  It gives you the
+absolute path for the first occurance of a program in your path.
+Unfortunately, it does two stupid things:  first, if it can't find one, it
+prints an error message to stdout; secondly, if you give it multiple arguments,
+it assumes you want one line per argument, each like calling which
+individually.
+
+F<whiff> assumes that all the arguments form a best-first list of alternatives,
+and only prints the path to the first alternative found in the path.  If none
+is found, it prints an error (to stderr!) and exits with an error code.
+
+=cut
+
+use App::Whiff;
+App::Whiff->run;
+
+=head1 BUGS
+
+Please report any bugs or feature requests through the web interface at
+L<http://rt.cpan.org>. I will be notified, and then you'll automatically be
+notified of progress on your bug as I make changes.
+
+=head1 COPYRIGHT
+
+Copyright 2008, Ricardo SIGNES.  This program is free software;  you can
+redistribute it and/or modify it under the same terms as Perl itself.
+
+=cut
+
