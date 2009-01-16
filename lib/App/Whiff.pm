@@ -8,11 +8,11 @@ App::Whiff - find the first executable of a series of alternatives
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =cut
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use File::Which;
 
