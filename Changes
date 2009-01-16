@@ -1,5 +1,8 @@
 Revision history for App-Whiff
 
+0.002     2009-01-16
+          add repo info to metadata
+
 0.001     2008-06-23
           first release; rjbs is irritated as which's awful behavior while
           migrating to a new workstation
