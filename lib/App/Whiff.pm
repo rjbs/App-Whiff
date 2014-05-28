@@ -25,6 +25,7 @@ sub find_first {
 
   my $file;
   for my $name (@$names) {
+    return $name if $name =~ m{\A/} && -x $name;
     $file = File::Which::which($name);
     return $file if $file;
   }
