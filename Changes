@@ -1,6 +1,8 @@
 Revision history for App-Whiff
 
 {{$NEXT}}
+        - update author contact info
+        - add perl support docs
 
 0.005     2014-05-28 11:34:38-04:00 America/New_York
         - if one of the args to whiff is an absolute path, it will be tested
