@@ -1,6 +1,8 @@
 Revision history for App-Whiff
 
 {{$NEXT}}
+
+0.006     2021-06-18 22:26:45-04:00 America/New_York
         - update author contact info
         - add perl support docs
 
