@@ -11,7 +11,7 @@ use warnings;
 =head1 DESCRIPTION
 
 F<which> is a useful utility, found on most unix systems.  It gives you the
-absolute path for the first occurance of a program in your path.
+absolute path for the first occurrence of a program in your path.
 Unfortunately, it does two stupid things:  first, if it can't find one, it
 prints an error message to stdout; secondly, if you give it multiple arguments,
 it assumes you want one line per argument, each like calling which
