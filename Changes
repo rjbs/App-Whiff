@@ -1,6 +1,8 @@
 Revision history for App-Whiff
 
 {{$NEXT}}
+        - fix a typo in the docs (thanks, Florian Schlichting and Debian typo
+          finder!)
 
 0.006     2021-06-18 22:26:45-04:00 America/New_York
         - update author contact info
